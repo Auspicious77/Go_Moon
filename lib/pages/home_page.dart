@@ -67,6 +67,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
+  //dropdown widget
   Widget _dropDownWidget(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return CustomDropdownWidget(
